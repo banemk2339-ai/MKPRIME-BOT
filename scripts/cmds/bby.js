@@ -170,7 +170,7 @@ module.exports.onChat = async ({
             if (!arr) {
 
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
-                    if (!info) message.reply("info obj not found")
+                    if (!info) message.reply("info obj not found. Please contact Charles")
                     global.GoatBot.onReply.set(info.messageID, {
                         commandName: this.config.name,
                         type: "reply",

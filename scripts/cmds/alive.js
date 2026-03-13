@@ -44,10 +44,10 @@ async function sendAlive(message) {
       await message.reply({
         body: `
 ───────────────
-✨ SPIDEY BOT ✨
+✨ MKBOTV2 BOT ✨
 
 Bot is alive and kicking!
-Made by: Eren Yeager
+Made by: Charles MK
 Ready to serve you.
 
 ───────────────`,
