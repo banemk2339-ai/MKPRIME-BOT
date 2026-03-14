@@ -70,7 +70,7 @@ module.exports = {
 
     } catch (err) {
       console.error("Error in sommand:", err.message || err);
-      message.reply("🥹error, contact MahMUD.");
+      message.reply("🥹error, contat Charles or  MahMU.");
     }
   }
 };
